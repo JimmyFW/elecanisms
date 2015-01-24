@@ -11,6 +11,7 @@ int16_t main(void) {
     init_uart();
 
     printf("Hello World!\n");
+    printf("My name is J\n");
 
     printf("What is your name? ");
     uart_gets(&uart1, string, 40);
